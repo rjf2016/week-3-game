@@ -1,0 +1,125 @@
+body 
+{
+  background: black;
+}
+
+section {
+  background: black;
+  width: 90%;
+  padding: 15px;
+  overflow: none;
+  min-width: 30%;
+  max-width: 90%;
+  margin: auto;
+  text-align:center;
+}
+
+.center {
+   text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  font-family: sans-serif;
+  vertical-align: top;
+  text-align:center;
+}
+
+code {
+  font-family: monospace;
+  font-size: 0.85em;
+  background: rgba(255, 255, 255, 0.7);
+  border: rgba(0, 0, 0, 0.3) solid 1px;
+  padding: 0.1em;
+  vertical-align: baseline;
+}
+
+div {
+  font-size: 18px;
+  line-height: 1.3em;
+  vertical-align: top;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+  padding: 1em;
+  box-sizing: border-box;
+  width: 45%;
+ height:500px;
+}
+
+.ib {
+  background: salmon;
+  border: solid red 1px;
+  display: inline-block;
+
+}
+
+.ib-text {
+  background: salmon;
+  border: solid red 1px;
+  display: inline-block;
+  text-align: left;
+
+}
+
+.title-pic{
+	height: 205px;
+	width: 255px;
+}
+.movie-pic{
+	height: 256px;
+	width:256px;
+}
+
+.float {
+  background: lightgreen;
+  border: solid green 1px;
+  float: left;
+}
+
+
+   
+
+.tile
+{
+ height:40px;
+ width:40px;
+ margin-right:5px;
+ background-color:salmon;
+ text-align:center;
+ font-size:24px;
+ color:#333;
+ padding-top:5px;
+
+}
+
+.letters-guessed
+{
+ height:40px;
+ width:40px;
+ margin-right:5px;
+ background-color:salmon;
+ text-align:center;
+ font-size:24px;
+ color:#333;
+ padding-top:5px;
+ padding-right:5px;
+}
+
+.messages{
+  font-size: 24px;
+  line-height: 1.3em;
+  vertical-align: bottom;
+  margin-bottom: 5px;
+  border-radius: 0.5em;
+  padding: 1em;
+  box-sizing: border-box;
+  width: 100%;
+
+}
+
+.half {
+  width: 50%;
+}
+
+
