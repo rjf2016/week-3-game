@@ -23,7 +23,7 @@ var movieImgList = ["assets/images/anchorman.jpg",
 		    "assets/images/thegodfather.png", 
 		    "assets/images/goodfellas.jpg",
 		    "assets/images/backtothefuture.png",
-		    "assets/images/theshining.png",
+		    "assets/images/TheShining.png",
 		    "assets/images/jurassicpark.jpg"]
 
 var songlist = ["http://www.moviewavs.com/0053148414/MP3S/Movies/Anchorman_The_Legend_Of_Ron_Burgundy/stayclassy.mp3",
@@ -84,7 +84,7 @@ function clearBoard()
 	document.getElementById("letters-guessed").innerText = "";
 	document.getElementById("guesses").innerText = TotalNumberofGuesses;
 
-	document.getElementById("moviePic").src = "assets\\images\\hollywood-placeholder.jpg";  //reset the picture back to placeholder
+	document.getElementById("moviePic").src = "assets\\images\\Hollywood-placeholder.jpg";  //reset the picture back to placeholder
 
 }
 
