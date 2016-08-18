@@ -84,7 +84,7 @@ function clearBoard()
 	document.getElementById("letters-guessed").innerText = "";
 	document.getElementById("guesses").innerText = TotalNumberofGuesses;
 
-	document.getElementById("moviePic").src = "assets\\images\\Hollywood-placeholder.jpg";  //reset the picture back to placeholder
+	document.getElementById("moviePic").src = "assets\\images\\Hollywood-placeholder.JPG";  //reset the picture back to placeholder
 
 }
 
@@ -113,14 +113,13 @@ function getWord()
 	
 		if(maxWords >= wordlist.length)  //you reached the end of the words
 		{
-			alert("outtie");
 			break;
 		}
 	  }
 	}
 	else
 	{
-		alert("Game Over");
+		//gameover
 	}	
 	
 		
